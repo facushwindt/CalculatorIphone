@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface RPNCalculatorViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *display;
+@property (weak, nonatomic) IBOutlet UILabel *pressedDisplay;
 
 @end

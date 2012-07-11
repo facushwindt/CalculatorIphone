@@ -15,6 +15,7 @@
 		6E437DCA159A5E570028BA09 /* RPNCalculatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E437DC9159A5E570028BA09 /* RPNCalculatorAppDelegate.m */; };
 		6E437DCD159A5E570028BA09 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E437DCB159A5E570028BA09 /* MainStoryboard.storyboard */; };
 		6E437DD0159A5E570028BA09 /* RPNCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E437DCF159A5E570028BA09 /* RPNCalculatorViewController.m */; };
+		6E437DD8159B68130028BA09 /* RPNCalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E437DD7159B68130028BA09 /* RPNCalculatorBrain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,17 @@
 		6E437DB9159A5E560028BA09 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6E437DBB159A5E560028BA09 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6E437DBD159A5E560028BA09 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6E437DC1159A5E560028BA09 /* RPNCalculator-Info.plist */ = {isa = PBXFileReference; path = "RPNCalculator-Info.plist"; sourceTree = "<group>"; };
+		6E437DC1159A5E560028BA09 /* RPNCalculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RPNCalculator-Info.plist"; sourceTree = "<group>"; };
 		6E437DC3159A5E560028BA09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6E437DC5159A5E570028BA09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6E437DC7159A5E570028BA09 /* RPNCalculator-Prefix.pch */ = {isa = PBXFileReference; path = "RPNCalculator-Prefix.pch"; sourceTree = "<group>"; };
-		6E437DC8159A5E570028BA09 /* RPNCalculatorAppDelegate.h */ = {isa = PBXFileReference; path = RPNCalculatorAppDelegate.h; sourceTree = "<group>"; };
+		6E437DC7159A5E570028BA09 /* RPNCalculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RPNCalculator-Prefix.pch"; sourceTree = "<group>"; };
+		6E437DC8159A5E570028BA09 /* RPNCalculatorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPNCalculatorAppDelegate.h; sourceTree = "<group>"; };
 		6E437DC9159A5E570028BA09 /* RPNCalculatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPNCalculatorAppDelegate.m; sourceTree = "<group>"; };
 		6E437DCC159A5E570028BA09 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		6E437DCE159A5E570028BA09 /* RPNCalculatorViewController.h */ = {isa = PBXFileReference; path = RPNCalculatorViewController.h; sourceTree = "<group>"; };
+		6E437DCE159A5E570028BA09 /* RPNCalculatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPNCalculatorViewController.h; sourceTree = "<group>"; };
 		6E437DCF159A5E570028BA09 /* RPNCalculatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPNCalculatorViewController.m; sourceTree = "<group>"; };
+		6E437DD6159B68130028BA09 /* RPNCalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPNCalculatorBrain.h; sourceTree = "<group>"; };
+		6E437DD7159B68130028BA09 /* RPNCalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPNCalculatorBrain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 				6E437DCB159A5E570028BA09 /* MainStoryboard.storyboard */,
 				6E437DCE159A5E570028BA09 /* RPNCalculatorViewController.h */,
 				6E437DCF159A5E570028BA09 /* RPNCalculatorViewController.m */,
+				6E437DD6159B68130028BA09 /* RPNCalculatorBrain.h */,
+				6E437DD7159B68130028BA09 /* RPNCalculatorBrain.m */,
 				6E437DC0159A5E560028BA09 /* Supporting Files */,
 			);
 			path = RPNCalculator;
@@ -164,6 +169,7 @@
 				6E437DC6159A5E570028BA09 /* main.m in Sources */,
 				6E437DCA159A5E570028BA09 /* RPNCalculatorAppDelegate.m in Sources */,
 				6E437DD0159A5E570028BA09 /* RPNCalculatorViewController.m in Sources */,
+				6E437DD8159B68130028BA09 /* RPNCalculatorBrain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
